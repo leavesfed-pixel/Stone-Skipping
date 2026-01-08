@@ -75,7 +75,7 @@ end
 local Physics = {}
 --Rounds a number to 4 dp
 function Physics.Round(number)
-	return math.round(number * 10) / 10
+	return math.round(number * 10^4) / 10^4
 end 
 
 --returns direction of Vector2 from Vector1
